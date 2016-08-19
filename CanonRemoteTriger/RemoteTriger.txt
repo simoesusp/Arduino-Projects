@@ -1,0 +1,3 @@
+This project consists of a IR remote triger for the Canon IOS Rebel T6s
+
+It includes the Arduino Hardware design and schematics as well as the code and is state machine.
