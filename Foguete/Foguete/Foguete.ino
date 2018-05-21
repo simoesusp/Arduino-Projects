@@ -4,7 +4,7 @@ int LED = 13;
 int MOTOR = 11; 
 
 int soundDetectedPin = 10; 
-int soundDetectedVal = HIGH; 
+int soundDetectedVal = HIGH; // When there is a noise, becomes LOW !
 
 
 
