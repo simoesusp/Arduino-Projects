@@ -4,8 +4,8 @@
 
 #include <NewPing.h>
 
-#define TRIGGER_PIN  2  // Arduino pin tied to trigger pin on the ultrasonic sensor.
-#define ECHO_PINA     3  // Arduino pin tied to echo pin on the ultrasonic sensor.
+#define TRIGGER_PIN  12  // Arduino pin tied to trigger pin on the ultrasonic sensor.
+#define ECHO_PINA    11  // Arduino pin tied to echo pin on the ultrasonic sensor.
 //#define ECHO_PINB     4  // Arduino pin tied to echo pin on the ultrasonic sensor.
 unsigned int uS;
 
