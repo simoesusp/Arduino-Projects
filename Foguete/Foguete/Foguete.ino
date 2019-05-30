@@ -1,15 +1,12 @@
 // CONTROLE DO FOGUETE
 
-int LED = 13; 
-int MOTOR = 11; 
+const int LED = 13; 
+const int MOTOR = 11; 
 
-int soundDetectedPin = 10; 
-int soundDetectedVal = HIGH; // When there is a noise, becomes LOW !
+const int soundDetectedPin = 10; 
+const int soundDetectedVal = HIGH; // When there is a noise, becomes LOW !
 
-
-
-int soundAlarmTime = 200; 
-
+const int soundAlarmTime = 200; 
 
 void setup ()
 {
@@ -20,7 +17,7 @@ void setup ()
   
   digitalWrite(LED, LOW);   
   digitalWrite(MOTOR, LOW); 
-  delay(10000);             
+  delay(10000);   // 10 secconds so everybody shut up!!          
   digitalWrite(LED, HIGH);  
 
 
